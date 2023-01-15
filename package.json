@@ -4,8 +4,7 @@
   "description": "Steam hour boost with two factor support",
   "main": "lib/app.js",
   "scripts": {
-    "app": "node lib/app.js",
-    "boost": "node lib/app.js",
+    "start": "node lib/app.js",
     "user": "node lib/user.js"
   },
   "repository": {
