@@ -1,4 +1,4 @@
 node_modules
-config/database.json
+config/config.json
 config/session/loginKey-*
 yarn.lock

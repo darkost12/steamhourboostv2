@@ -6,7 +6,7 @@ Install dependencies:
 npm install
 ```
 
-User config is stored in `./config/database.json`. It can be edited manually (see example `config/example.json`). Or you can add user with:
+User config is stored in `./config/config.json`. It can be edited manually (see example `config/example.json`). Or you can add user with:
 ```bash
 npm run user
 ```
@@ -16,4 +16,4 @@ To start boosting:
 npm run app
 ```
 
-Some features like Telegram bot or db migration were removed as unused.
+Some features like db migration were removed as unused.
