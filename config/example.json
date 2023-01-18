@@ -11,5 +11,6 @@
       "refreshSteamladder": true
     }
   ],
-  "steamladderApiKey": "your-api-key"
+  "steamladderApiKey": "your-api-key",
+  "telegramBotToken": "your-tg-bot-token"
 }
