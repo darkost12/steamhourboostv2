@@ -3,17 +3,26 @@
 
 Install dependencies:
 ```bash
-npm install
+yarn install
 ```
 
-User config is stored in `./config/config.json`. It can be edited manually (see example `config/example.json`). Or you can add user with:
+Config is stored in `./config/config.json`. It can be edited manually (see example `config/example.json`).
+
+You can add user with:
 ```bash
-npm run user
+yarn run user
 ```
 
 To start boosting:
 ```bash
-npm run app
+yarn run start
 ```
+
+To run this in container and provide idler with the first guard codes to start with you would need to use simple Telegram bot.
+Set Telegram bot token:
+```bash
+yarn run set-token
+```
+When any of users encounters Steam guard on login the bot would be launched and would wait for code.
 
 Some features like db migration were removed as unused.
