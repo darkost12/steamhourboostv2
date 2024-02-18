@@ -32,7 +32,7 @@
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "ramda": "^0.25.0",
-    "steam-user": "^4.28.9",
+    "steam-user": "v5",
     "telegraf": "^4.11.2"
   },
   "engines": {
