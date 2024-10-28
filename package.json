@@ -24,15 +24,13 @@
   "homepage": "https://github.com/frk1/steamhourboostv2#readme",
   "dependencies": {
     "app-root-path": "^2.2.1",
-    "axios": "^1.2.2",
     "bluebird": "^3.7.2",
     "fs-extra": "^5.0.0",
-    "fuse.js": "^3.6.1",
     "inquirer": "^5.2.0",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "ramda": "^0.25.0",
-    "steam-user": "^4.28.9",
+    "steam-user": "^5.2.0",
     "telegraf": "^4.11.2"
   },
   "engines": {

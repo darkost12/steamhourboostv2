@@ -10,8 +10,8 @@ RUN set -ex ;\
 WORKDIR /steamhourboostv2-main
 
 RUN set -ex ;\
-  yarn install
+  npm install
 
 ENV HOME=/steamhourboostv2-main/config
 
-CMD yarn run start
+CMD npm start
